@@ -1,0 +1,25 @@
+{
+    "name": "polarthink/utils",
+    "type": "library",
+    "license": "Apache License 2.0",
+    "description": "polarthink工具库",
+    "authors": [
+        {
+            "name": "肖庆平",
+            "email": "xiaoqingping@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "ext-json": "*",
+        "topthink/framework": "^6.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "utils\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
